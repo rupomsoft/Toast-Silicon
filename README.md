@@ -17,6 +17,8 @@
 	        	implementation 'com.github.rupomsoft:Toast-Silicon:1.0.0'
 		}
 
+# Preview
+![Preview Image](https://github.com/rupomsoft/Toast-Silicon/blob/master/preview.png)
 
 # Example 
         ToastSilicon.toastPrimaryOne(MainActivity.this,"This is toast primary",Toast.LENGTH_SHORT);

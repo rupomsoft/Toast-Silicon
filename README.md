@@ -10,6 +10,6 @@ Installation
 		}
 	}
   
-  dependencies {
+	  dependencies {
 	        implementation 'com.github.rupomsoft:Toast-Silicon:Tag'
 	}

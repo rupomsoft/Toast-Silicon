@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
     <ScrollView
@@ -26,11 +25,7 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_margin="4dp"
-                        android:text="Class Name: ToastOne"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
+
                     <Button
                         android:layout_margin="4dp"
                         android:paddingRight="20dp"
@@ -92,11 +87,6 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_margin="4dp"
-                        android:text="Class Name: ToastTwo"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
                     <Button
                         android:layout_margin="4dp"
                         android:paddingRight="20dp"
@@ -162,11 +152,6 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_margin="4dp"
-                        android:text="Class Name: ToastThree"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
                     <Button
                         android:layout_margin="4dp"
                         android:paddingRight="20dp"
@@ -224,11 +209,6 @@
                     android:layout_weight="1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_margin="4dp"
-                        android:text="Class Name: ToastFour"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"/>
                     <Button
                         android:layout_margin="4dp"
                         android:paddingRight="20dp"

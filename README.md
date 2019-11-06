@@ -20,9 +20,9 @@
 
 # Example 
         ToastSilicon.toastPrimaryOne(MainActivity.this,"This is toast primary",Toast.LENGTH_SHORT);
-	ToastSilicon.toastDangerOne(MainActivity.this,"This is toast danger",Toast.LENGTH_SHORT);
-	ToastSilicon.toastWarningOne(MainActivity.this,"This is toast warning",Toast.LENGTH_SHORT);
-	ToastSilicon.toastInfoOne(MainActivity.this,"This is toast info",Toast.LENGTH_SHORT);
+		ToastSilicon.toastDangerOne(MainActivity.this,"This is toast danger",Toast.LENGTH_SHORT);
+		ToastSilicon.toastWarningOne(MainActivity.this,"This is toast warning",Toast.LENGTH_SHORT);
+		ToastSilicon.toastInfoOne(MainActivity.this,"This is toast info",Toast.LENGTH_SHORT);
         ToastSilicon.toastSuccessOne(MainActivity.this,"This is toast success",Toast.LENGTH_SHORT);
         ToastSilicon.toastPrimaryTwo(MainActivity.this,"This is toast primary",Toast.LENGTH_SHORT);
         ToastSilicon.toastDangerTwo(MainActivity.this,"This is toast danger",Toast.LENGTH_SHORT);

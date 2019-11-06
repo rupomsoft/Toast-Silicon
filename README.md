@@ -12,7 +12,7 @@
 		}
 	}
 
-1.Implement in your build.gradle(Module:app) file.
+2.Implement in your build.gradle(Module:app) file.
 
 	  dependencies {
 	        implementation 'com.github.rupomsoft:Toast-Silicon:1.0.0'

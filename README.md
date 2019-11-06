@@ -5,7 +5,7 @@
 ![Preview Image](https://github.com/rupomsoft/Toast-Silicon/blob/master/preview.png)
 
 # Demo APK 
-[Get Here](https://github.com/rupomsoft/Toast-Silicon/blob/master/Toast%20Silicon%20Demo.apk?raw=true)
+[Toast Silicon Demo App](https://github.com/rupomsoft/Toast-Silicon/blob/master/Toast%20Silicon%20Demo.apk?raw=true)
 
 # Installation 
 

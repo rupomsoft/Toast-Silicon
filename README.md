@@ -3,7 +3,7 @@
 
 # Installation 
 
-1.Add maven in your build.gradle(project) file inside allprojects 
+1. Add maven in your build.gradle(project) file inside allprojects 
 
 	allprojects {
 		repositories {
@@ -12,7 +12,7 @@
 		}
 	}
 
-2.Implement in your build.gradle(Module:app) file.
+2. Implement in your build.gradle(Module:app) file.
 
 	  dependencies {
 	        implementation 'com.github.rupomsoft:Toast-Silicon:1.0.0'

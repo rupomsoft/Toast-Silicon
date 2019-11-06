@@ -1,6 +1,9 @@
 # Toast Silicon
 [![](https://jitpack.io/v/rupomsoft/Toast-Silicon.svg)](https://jitpack.io/#rupomsoft/Toast-Silicon)
 
+# Preview
+![Preview Image](https://github.com/rupomsoft/Toast-Silicon/blob/master/preview.png)
+
 # Installation 
 
 1. Add maven in your build.gradle(project) file inside allprojects 
@@ -17,8 +20,7 @@
 	        	implementation 'com.github.rupomsoft:Toast-Silicon:1.0.0'
 		}
 
-# Preview
-![Preview Image](https://github.com/rupomsoft/Toast-Silicon/blob/master/preview.png)
+
 
 # Example 
         ToastSilicon.toastPrimaryOne(MainActivity.this,"This is toast primary",Toast.LENGTH_SHORT);

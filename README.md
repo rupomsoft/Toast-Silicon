@@ -1,7 +1,9 @@
 # Toast Silicon
 [![](https://jitpack.io/v/rupomsoft/Toast-Silicon.svg)](https://jitpack.io/#rupomsoft/Toast-Silicon)
 
-Installation 
+# Installation 
+
+1.Add maven in your build.gradle(project) file inside allprojects 
 
 	allprojects {
 		repositories {
@@ -9,7 +11,9 @@ Installation
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
+
+1.Implement in your build.gradle(Module:app) file.
+
 	  dependencies {
-	        implementation 'com.github.rupomsoft:Toast-Silicon:Tag'
+	        implementation 'com.github.rupomsoft:Toast-Silicon:1.0.0'
 	}

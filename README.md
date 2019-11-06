@@ -4,6 +4,9 @@
 # Preview
 ![Preview Image](https://github.com/rupomsoft/Toast-Silicon/blob/master/preview.png)
 
+# Demo APK 
+[Get Here](https://github.com/rupomsoft/Toast-Silicon/blob/master/Toast%20Silicon%20Demo.apk?raw=true)
+
 # Installation 
 
 1. Add maven in your build.gradle(project) file inside allprojects 

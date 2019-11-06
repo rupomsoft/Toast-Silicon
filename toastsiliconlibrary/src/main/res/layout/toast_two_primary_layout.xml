@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_one_primary_id"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/toast_two_primary_background"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="30dp"
+    android:paddingLeft="20dp">
+    <TextView
+        android:gravity="center_horizontal"
+        android:text="Toast Primary"
+        android:id="@+id/toast_two_primary_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

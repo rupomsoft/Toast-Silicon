@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:text="Class Name: ToastOne"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#337AB7"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastPrimary1"
+                        android:text="Primary 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#D9534F"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastDanger1"
+                        android:text="Danger 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#F0AD4E"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastWarning1"
+                        android:text="Warning 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#5BC0DE"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastInfo1"
+                        android:text="Info 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#5CB85C"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastSuccess1"
+                        android:text="Success 1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:text="Class Name: ToastTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#337AB7"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastPrimary2"
+                        android:text="Primary 2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#D9534F"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastDanger2"
+                        android:text="Danger 2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#F0AD4E"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastWarning2"
+                        android:text="Warning 2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#5BC0DE"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastInfo2"
+                        android:text="Info 2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#5CB85C"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastSuccess2"
+                        android:text="Success 2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:text="Class Name: ToastThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#337AB7"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastPrimary3"
+                        android:text="Primary 3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#D9534F"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastDanger3"
+                        android:text="Danger 3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#F0AD4E"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastWarning3"
+                        android:text="Warning 3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#5BC0DE"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastInfo3"
+                        android:text="Info 3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#5CB85C"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastSuccess3"
+                        android:text="Success 3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_margin="4dp"
+                        android:text="Class Name: ToastFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#337AB7"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastPrimary4"
+                        android:text="Primary 4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#D9534F"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastDanger4"
+                        android:text="Danger 4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#F0AD4E"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastWarning4"
+                        android:text="Warning 4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#5BC0DE"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastInfo4"
+                        android:text="Info 4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <Button
+                        android:layout_margin="4dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:background="#5CB85C"
+                        android:textColor="#ffffff"
+                        android:id="@+id/toastSuccess4"
+                        android:text="Success 4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
